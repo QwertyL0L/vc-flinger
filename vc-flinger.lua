@@ -283,7 +283,7 @@ print("Checking if you can fling players...")
 
 if canFlingPlayers() then
     print("You can fling other players!")
-    print("Press" .. ToggleKey .. "to start the script!")
+    print('Press "Z" to start the script!')
 else
     print("You can't fling other players. Cancelling script...")
     print("TIP: Next time join a game with collision on for players.")
